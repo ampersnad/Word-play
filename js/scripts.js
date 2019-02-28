@@ -42,13 +42,16 @@ $(document).ready(function() {
     console.log("word5", wordArray5)
     // var listArray3 = listArray2.sort();
 
+    var wordArray6 = wordArray5.join(' ');
+    console.log("word6", wordArray6);
+
 
     // $(".item1").append(listArray3[0]);
     // $(".item2").append(listArray3[1]);
     // $(".item3").append(listArray3[2]);
     // $(".item4").append(listArray3[3]);
     //
-    // $(".newSentence").text(listArray3[0]);
+    $(".newSentence").text(wordArray6);
     // $(".this2").text(listArray3[1]);
     // $(".this3").text(listArray3[2]);
     // $(".this4").text(listArray3[3]);
